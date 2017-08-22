@@ -1,0 +1,6 @@
+*.pid
+*.log
+vendor
+.idea
+.vscode
+*.lock

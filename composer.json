@@ -1,0 +1,32 @@
+{
+  "require": {
+    "php": ">=7.0.0",
+    "monolog/monolog": "~1.23",
+    "voku/anti-xss": "~2.1",
+    "graylog2/gelf-php": "~1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "async\\": "src/async",
+      "base\\": "src/base",
+      "cache\\": "src/cache",
+      "console\\": "src/console",
+      "db\\": "src/db"
+    },
+    "files": [
+      "src/third.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "wengerzhou",
+      "email": "bbcsky@qq.com",
+      "homepage": "https://github.com/bbcsky"
+    }
+  ],
+  "name": "bbcsky/phpzs",
+  "type": "library",
+  "keywords": ["server", "swoole", "pool"],
+  "description": "api for app",
+  "license": "MIT"
+}
